@@ -1,9 +1,10 @@
 body{
   display: grid;
-  grid-template-columns: 25% auto 25%;
+  grid-template-columns: auto 30% auto;
   grid-template-rows: 25% auto 25%;
   height: 100vh;
   font-size: 48px;
+  font-family: 'Orbitron', sans-serif;
 }
 
  .container{
@@ -23,23 +24,35 @@ body{
    justify-content: center;  /* centers items horizontally in row layout */
    align-items: center;  /* centers vertically in row layout */
  }
+ .countDown{
+   margin: 40px;
+ }
 .red{
   color: red;
 }
 input{
-  height: 35px;
+  height: 45px;
   margin: 0 5px 0 5px;
   border-radius: 10px;
-  border-width: 2px;
-  font-size: 30px
+  border: 5px solid #A4A4A4;
+  font-size: 48px;
+  text-align: center;
+  width: 250px;
+  font-family: 'Orbitron', sans-serif;
 }
 button{
-  font-size: 30px;
-  width:40px;
-  height: 40px;
+  font-size: 48px;
+  width:55px;
+  height: 55px;
   border-radius: 10px;
   vertical-align: middle;
   text-align: center;
+  color: white;
+  border-color: #848484;
+  background-color: #848484;
+  opacity: .7;
+  padding: auto 0;
+  font-family: 'Orbitron', sans-serif;
 }
 button:active{
   opacity: .5;
